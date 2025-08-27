@@ -32,3 +32,18 @@ It validates whether the password contains:
 ```bash
 git clone https://github.com/your-username/password-checker.git
 cd password-checker
+
+### 2. Run the script
+```bash
+python password_checker.py
+
+-> Welcome to the Password Strength Checker Tool
+Enter your password (or type 'exit' to quit): hello
+Weak (★☆☆☆☆): password must be at least 8 characters long
+
+Enter your password (or type 'exit' to quit): Hello123
+Medium (★★★☆☆): password must contain a special character
+
+Enter your password (or type 'exit' to quit): Hello@123
+Strong (★★★★★): password is secured!
+
